@@ -18,36 +18,6 @@ the task is to predict labels on unseen test tweets.
 - Test set  — 17,197 tweets (unlabeled, to predict)
 - Severe class imbalance — 93% normal (0) vs 7% hate speech (1)
 
----
-
-## Repository Structure
-
-```
-twitter-sentiment-analysis/
-│
-├── solution.py              <- End-to-end ML pipeline
-├── requirements.txt         <- Python dependencies
-├── README.md                <- This file
-├── .gitignore               <- Ignores CSV files and cache
-│
-├── data/                    <- Place raw CSVs here (not tracked by git)
-│   ├── train_E6oV3lV.csv
-│   └── test_tweets_anuFYb8.csv
-│
-└── outputs/                 <- Auto-generated when solution.py runs
-    ├── test_predictions.csv     <- SUBMIT THIS FILE
-    ├── eda_overview.png
-    ├── wordcloud_normal.png
-    ├── wordcloud_hate.png
-    ├── cv_comparison.png
-    ├── confusion_matrices.png
-    ├── roc_curves.png
-    ├── top_features.png
-    └── threshold_vs_f1.png
-```
-
----
-
 ## Setup and Usage
 
 ### Step 1 — Clone the repository
@@ -283,8 +253,3 @@ wordcloud
 
 No NLTK or internet connection required to run the pipeline.
 
----
-
-## License
-
-MIT License — free to use, modify, and share.
