@@ -1,0 +1,22 @@
+# Data files (competition data — do not push)
+*.csv
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pickle / model files
+*.pkl
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
